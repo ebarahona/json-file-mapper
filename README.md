@@ -11,9 +11,9 @@ Configuration parameters can also be set via Node environment vairables: PORT, J
 ### Example
 Source file:
 
-`[
-    {
-        "datasetid": "us-zip-code-latitude-and-longitude", 
+    [
+        {
+	    "datasetid": "us-zip-code-latitude-and-longitude", 
         "recordid": "7a01d53d577937547e9732307148f756d9ce1098",
         "fields": {
             "city": "Sacramento", 
@@ -31,7 +31,7 @@ Source file:
         },
         "record_timestamp": "2018-02-09T08:33:38-08:00"
     }
-]`
+]
 
 map file:
 
