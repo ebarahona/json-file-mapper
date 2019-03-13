@@ -51,12 +51,12 @@ Output file:
     [{
         "city": "Sacramento",
         "zip": "94253",
-	"dst": 1,
-	"latitude": 38.377411,
-	"longitude": -121.444429,
-	"state": "CA",
-	"timezone": -8,
-	"country": "US"
+        "dst": 1,
+        "latitude": 38.377411,
+        "longitude": -121.444429,
+        "state": "CA",
+        "timezone": -8,
+        "country": "US"
     }]
 
 
