@@ -35,7 +35,7 @@ Source file:
 
 map file:
 
-`{
+    {
     "city": "fields.city",
     "zip": "fields.zip",
     "dst": "fields.dst",
@@ -44,11 +44,11 @@ map file:
     "state": "fields.state",
     "timezone": "fields.timezone",
     "country": "US"
-}`
+    }
 
 output file:
 
-`[{
+    [{
 	"city": "Sacramento",
 	"zip": "94253",
 	"dst": 1,
@@ -57,7 +57,8 @@ output file:
 	"state": "CA",
 	"timezone": -8,
 	"country": "US"
-}]`
+        
+    }]
 
 
 If the property does not exist in the source file, but listed in the map file then it is added with the value set in the map file: `"country": "US"`
