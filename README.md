@@ -6,7 +6,8 @@ Set the JSON source, JSON map and new file name in config/default.json
 
 The app will take the source file and create a new JSON file based on the map file, the map file uses dot notation strings to get the value from the source file.
 
-Config params can also be set via environment variables: PORT, JSON_SOURCE, MAP_FILE, NEW_FILE
+Config params (PORT, JSON_SOURCE, MAP_FILE, NEW_FILE) can also be set via environment variables ie;
+    PORT=3333 JSON_SOURCE='/path/to/my/file.json' npm start
 
 ### Example
 Source file:
