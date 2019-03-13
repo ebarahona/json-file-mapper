@@ -64,10 +64,9 @@ If the property does not exist in the source file, but listed in the map file th
 
 
 ### Install
-npm install
-
-### Start
-npm start
+    git clone https://github.com/ebarahona/json-file-mapper.git && cd json-file-mapper
+    npm install
+    npm start
 
 ### Test/Process
 localhost:3000/process
