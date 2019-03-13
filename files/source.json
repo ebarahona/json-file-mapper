@@ -1,0 +1,21 @@
+[
+    {
+    "datasetid": "us-zip-code-latitude-and-longitude", 
+    "recordid": "7a01d53d577937547e9732307148f756d9ce1098",
+    "fields": {
+        "city": "Sacramento", 
+        "zip": "94253", 
+        "dst": 1, 
+        "geopoint": [38.377411, -121.444429], 
+        "longitude": -121.444429, 
+        "state": "CA", 
+        "latitude": 38.377411, 
+        "timezone": -8
+    },
+    "geometry": {
+        "type": "Point", 
+        "coordinates": [-121.444429, 38.377411]
+    },
+    "record_timestamp": "2018-02-09T08:33:38-08:00"
+    }
+]

@@ -1,0 +1,10 @@
+{
+    "city": "fields.city",
+    "zip": "fields.zip",
+    "dst": "fields.dst",
+    "latitude": "fields.latitude",
+    "longitude": "fields.longitude",
+    "state": "fields.state",
+    "timezone": "fields.timezone",
+    "country": "US"
+}

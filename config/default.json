@@ -1,0 +1,6 @@
+{
+    "port": 3000,
+    "json_source": "./files/source.json",
+    "map_file": "./files/map.json",
+    "new_file": "./files/new.json"
+}
