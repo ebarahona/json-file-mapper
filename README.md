@@ -49,7 +49,7 @@ Map file:
 Output file:
 
     [{
-	"city": "Sacramento",
+        "city": "Sacramento",
 	"zip": "94253",
 	"dst": 1,
 	"latitude": 38.377411,
