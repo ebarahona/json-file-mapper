@@ -60,7 +60,7 @@ Output file:
     }]
 
 
-If the property does not exist in the source file, but listed in the map file then it is added with the static value, if no value is set null is added (static objects can be added this way as well): `"country": "US"`
+If the property does not exist in the source file, but listed in the map file then it is added with the static value, if there is no value then "null" is used (static objects can be added this way as well): `"country": "US"`
 
 
 ### Install
