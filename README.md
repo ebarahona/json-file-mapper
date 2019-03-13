@@ -12,7 +12,7 @@ Configuration parameters can also be set via Node environment vairables: PORT, J
 Source file:
 
 `[
-    {
+   {
     "datasetid": "us-zip-code-latitude-and-longitude", 
     "recordid": "7a01d53d577937547e9732307148f756d9ce1098",
     "fields": {
