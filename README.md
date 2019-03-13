@@ -33,20 +33,20 @@ Source file:
     }
 ]
 
-map file:
+Map file:
 
     {
-    "city": "fields.city",
-    "zip": "fields.zip",
-    "dst": "fields.dst",
-    "latitude": "fields.latitude",
-    "longitude": "fields.longitude",
-    "state": "fields.state",
-    "timezone": "fields.timezone",
-    "country": "US"
+        "city": "fields.city",
+        "zip": "fields.zip",
+        "dst": "fields.dst",
+        "latitude": "fields.latitude",
+        "longitude": "fields.longitude",
+        "state": "fields.state",
+        "timezone": "fields.timezone",
+        "country": "US"
     }
 
-output file:
+Output file:
 
     [{
 	"city": "Sacramento",
@@ -61,7 +61,7 @@ output file:
     }]
 
 
-If the property does not exist in the source file, but listed in the map file then it is added with the value set in the map file: `"country": "US"`
+If the property does not exist in the source file, but listed in the map file then it is added with the static value, if no value is set null is added (static objects can be added this way as well): `"country": "US"`
 
 
 ### Install
