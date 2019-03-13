@@ -6,7 +6,7 @@ Set the JSON source, JSON map and new file name in config/default.json
 
 The app will take the source file and create a new JSON file based on the map file, the map file uses dot notation strings to get the value from the source file.
 
-Configuration parameters can also be set via Node environment vairables: PORT, JSON_SOURCE, MAP_FILE, NEW_FILE
+Config params can also be set via environment variables: PORT, JSON_SOURCE, MAP_FILE, NEW_FILE
 
 ### Example
 Source file:
