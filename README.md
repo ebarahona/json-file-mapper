@@ -30,8 +30,8 @@ Source file:
             "coordinates": [-121.444429, 38.377411]
         },
         "record_timestamp": "2018-02-09T08:33:38-08:00"
-    }
-]
+        }
+    ]
 
 Map file:
 
