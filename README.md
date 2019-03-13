@@ -10,6 +10,7 @@ Configuration parameters can also be set via Node environment vairables: PORT, J
 
 ### Example
 Source file:
+
 `[
     {
     "datasetid": "us-zip-code-latitude-and-longitude", 
@@ -33,6 +34,7 @@ Source file:
 ]`
 
 map file:
+
 `{
     "city": "fields.city",
     "zip": "fields.zip",
@@ -41,10 +43,11 @@ map file:
     "longitude": "fields.longitude",
     "state": "fields.state",
     "timezone": "fields.timezone",
-    "country": "US" // This field does not exist in source so it will create this property and add the value "US" static can objects not in source also be added
+    "country": "US"
 }`
 
 output file:
+
 `[{
 	"city": "Sacramento",
 	"zip": "94253",
@@ -55,6 +58,9 @@ output file:
 	"timezone": -8,
 	"country": "US"
 }]`
+
+
+If the property does not exist in the source file, but listed in the map file then it is added with the value set in the map file: `"country": "US"`
 
 
 ### Install
