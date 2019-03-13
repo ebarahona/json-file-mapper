@@ -1,5 +1,5 @@
 # json-file-mapper
-Simple NodeJS app to create a new JSON file from an existing JSON file with new property names
+Simple NodeJS app to create a new JSON file from an existing JSON file with new property names, uses recursion to add deeply nested properties.
 
 ## Configuration
 Set the JSON source, JSON map and new file name in config/default.json
