@@ -1,5 +1,5 @@
 # json-file-mapper
-I needed to modify a data set for GeoSpatial DB so I made this small NodeJS app to create a new JSON file from existing JSON.  It uses a map file to map new property names and recursion for deep nesting.
+I needed to modify a large JSON data set for GeoSpatial DB before import so I made this small NodeJS app to create a new JSON file from existing JSON.  It uses a map file to map new property names and recursion for deep nesting.
 
 ## Configuration
 Set the JSON source, JSON map and new file name in config/default.json
